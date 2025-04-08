@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="demo1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/demo1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/demo1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="background.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="background.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="bullet.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="bullet.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="defs.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="font.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="font.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="intro.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="intro.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="music.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="music.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="player.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="player.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="sound.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="sound.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="time.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="time.h">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

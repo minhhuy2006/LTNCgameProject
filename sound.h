@@ -1,0 +1,1 @@
+#ifndef SOUND_H_INCLUDED#define SOUND_H_INCLUDED#include <SDL_mixer.h>#include <iostream>using namespace std;class Sound {private:    Mix_Chunk* shootSound;public:    Sound(const char* shootPath);    void playShootSound();    ~Sound();};#endif // SOUND_H_INCLUDED

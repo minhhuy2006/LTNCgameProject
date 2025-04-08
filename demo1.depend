@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1744126199 source:e:\demo1\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<vector>
+	<cmath>
+	<algorithm>
+	<iostream>
+	<string>
+	"defs.h"
+	"time.h"
+	"sound.h"
+	"bullet.h"
+	"font.h"
+	"player.h"
+	"background.h"
+	"intro.h"
+	"music.h"
+
+1744125915 source:e:\demo1\background.cpp
+	"Background.h"
+
+1744123999 source:e:\demo1\bullet.cpp
+	"bullet.h"
+	"defs.h"
+	<iostream>
+
+1744123155 source:e:\demo1\time.cpp
+	"time.h"
+	<SDL.h>
+
+1744123155 e:\demo1\time.h
+	<SDL.h>
+
+1744123275 e:\demo1\defs.h
+
+1744123183 source:e:\demo1\font.cpp
+	"font.h"
+	<iostream>
+
+1744125966 source:e:\demo1\intro.cpp
+	"Intro.h"
+	"defs.h"
+
+1744126302 source:e:\demo1\music.cpp
+	"Music.h"
+
+1744126048 source:e:\demo1\player.cpp
+	"player.h"
+	<SDL_image.h>
+	<cmath>
+	<iostream>
+
+1744123275 source:e:\demo1\sound.cpp
+	"sound.h"
+
+1744122222 e:\demo1\sound.h
+
+1744123999 e:\demo1\bullet.h
+	<SDL.h>
+
+1744123155 e:\demo1\font.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+
+1744125147 e:\demo1\player.h
+	<SDL.h>
+	<SDL_image.h>
+	<vector>
+	"defs.h"
+	"bullet.h"
+	"sound.h"
+
+1744125530 e:\demo1\background.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"defs.h"
+
+1744125915 e:\demo1\intro.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1744126199 e:\demo1\music.h
+	<SDL_mixer.h>
+	<iostream>
+
